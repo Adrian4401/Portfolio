@@ -1,32 +1,31 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { LanguageContext } from '../../context/LanguageContext';
 
 const LanguageSwitch = () => {
-  const [language, setLanguage] = useState("en")
+  const { lang, changeLanguage } = useContext(LanguageContext)
 
-  const handleCheckboxChange = (language) => {
-    setLanguage((prev) => (prev === "en" ? "pl" : "en"))
-  }
+  if (!lang) return null
 
   return (
     <>
       <label className='themeSwitcherThree relative inline-flex cursor-pointer select-none items-center'>
         <input
           type='checkbox'
-          checked={language === "pl"}
-          onChange={handleCheckboxChange}
+          checked={lang === "pl"}
+          onChange={() => changeLanguage(lang === 'en' ? 'pl' : 'en')}
           className='sr-only'
         />
-        <div className='shadow-card flex  w-[70px] items-center justify-between p-2 rounded-md bg-accent'>
+        <div className='shadow-card flex w-[70px] h-[40px] items-center justify-between p-2 rounded-md bg-accent'>
           <span
-            className={`fi fi-gb flex h-6 w-6 items-center justify-center rounded ${
-              language === "en" ? '' : 'opacity-25'
+            className={`fi fi-gb flex min-h-full w-full items-center justify-center rounded ${
+              lang === "en" ? 'opacity-100' : 'opacity-25'
             }`}
             id='english'
           />
           <span
-            className={`fi fi-pl flex h-6 w-6 items-center justify-center rounded ${
-              language === "pl" ? '' : 'opacity-25'
+            className={`fi fi-pl flex h-full w-full items-center justify-center rounded ${
+              lang === "pl" ? 'opacity-100' : 'opacity-25'
             }`}
             id='polish'
           />

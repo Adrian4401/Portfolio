@@ -1,15 +1,12 @@
-import Header from "./components/Header";
+import { LanguageProvider } from "./context/LanguageContext";
+import Home from "./pages/Home";
+
 
 function App() {
   return (
-    <div className="flex justify-center min-h-screen w-full text-center bg-background">
-      <div className="w-[1200px] flex flex-column">
-        <Header />
-      </div>
-      {/* <header className="flex w-full bg-blue">
-        
-      </header> */}
-    </div>
+    <LanguageProvider>
+      <Home/>
+    </LanguageProvider>
   );
 }
 

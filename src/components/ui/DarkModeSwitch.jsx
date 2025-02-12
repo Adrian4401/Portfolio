@@ -16,7 +16,7 @@ const DarkModeSwitch = () => {
           onChange={handleCheckboxChange}
           className='sr-only'
         />
-        <div className='shadow-card flex  w-[70px] items-center justify-between p-2 rounded-md bg-accent'>
+        <div className='shadow-card flex w-[70px] h-[40px] items-center justify-between p-2 rounded-md bg-accent'>
           <span
             className={`flex h-6 w-6 items-center justify-center rounded ${
               !isChecked ? 'bg-gradient text-white' : 'text-body-color'
