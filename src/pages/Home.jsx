@@ -1,5 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import Header from "../components/Header";
+import Projects from "../components/Projects";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
             <div className="w-[1200px] flex flex-col">
                 <Header />
                 <AboutMe />
+                <Projects />
             </div>
         </div>
     )
