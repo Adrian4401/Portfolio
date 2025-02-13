@@ -17,9 +17,13 @@ code {
 }
 
 .btn-nav {
-  @apply text-secondary text-lg font-medium cursor-pointer hover:text-primary;
+  @apply text-secondary dark:text-dark-secondary text-lg font-medium cursor-pointer hover:text-primary hover:dark:text-dark-primary;
 }
 
 .btn-nav-checked {
   @apply bg-gradient bg-clip-text text-transparent text-lg font-medium cursor-pointer;
+}
+
+.switches-bg {
+  @apply md:w-[70px] md:h-[40px] items-center justify-between sm:p-2 rounded-md md:bg-accent md:dark:bg-dark-accent;
 }

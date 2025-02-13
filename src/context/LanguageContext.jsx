@@ -24,7 +24,7 @@ export const LanguageProvider = ({ children }) => {
 
 
     return (
-        <LanguageContext.Provider value={{lang, changeLanguage, t}}>
+        <LanguageContext.Provider value={{ lang, changeLanguage, t }}>
             {children}
         </LanguageContext.Provider>
     )
