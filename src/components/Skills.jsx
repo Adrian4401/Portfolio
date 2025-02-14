@@ -11,11 +11,8 @@ export default function Skills() {
     return (
         <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-8">
             <div className="flex flex-col w-full h-fit items-center gap-4">
-                <h1 className="title-text">Skills</h1>
-                <p className="standard-text">
-                I'm a Junior Frontend Developer with a strong passion for modern web technologies. While my primary focus is frontend development, I have also worked with databases and even developed a backend for one of my projects.
-                I stay up to date with the latest industry trends and technologies, ensuring that the tools I use are modern, efficient, and long-term supported. My goal is to build scalable, well-structured applications while continuously expanding my skills in both frontend and backend development.
-                </p>
+                <h1 className="title-text">{ t.skills }</h1>
+                <p className="standard-text">{ t.skills_desc }</p>
             </div>
             <div className="xl:flex xl:w-full xl:justify-between gap-6 grid grid-cols-5">
                 <TechIcon icon={SiReact} name="React" />

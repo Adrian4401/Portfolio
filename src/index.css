@@ -29,7 +29,7 @@ code {
 }
 
 .standard-text {
-  @apply text-secondary dark:text-dark-secondary text-base font-normal;
+  @apply text-secondary dark:text-dark-secondary text-base font-normal text-justify;
 }
 
 .title-text {
