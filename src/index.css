@@ -33,7 +33,7 @@ code {
 }
 
 .title-text {
-  @apply bg-gradient bg-clip-text text-transparent text-6xl font-bold leading-[1.2];
+  @apply bg-gradient bg-clip-text text-transparent text-5xl md:text-6xl font-bold md:leading-[1.2];
 }
 
 .headline-text {
@@ -45,8 +45,5 @@ code {
 }
 
 .icons-gradient {
-  background: linear-gradient(to right, #09c7fb, #b381f3, #f64f59);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
+  fill: url(#chevronGradient);
 }
