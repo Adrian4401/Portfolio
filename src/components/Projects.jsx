@@ -37,7 +37,7 @@ export default function Projects() {
                 description={ t.studynote_website_desc }
                 link="https://studynote-az.netlify.app"
             />
-            <svg width="0" height="0">
+            <svg width="0" height="0" className="absolute invisible">
                 <defs>
                     <linearGradient id="chevronGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                         <stop offset="0%" stopColor="#09c7fb" />

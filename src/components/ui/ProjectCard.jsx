@@ -16,7 +16,7 @@ export default function ProjectCard({ image, title, description, link }) {
                 <div id="info" className="flex flex-col md:w-2/3 h-full justify-between p-4">
                     <div className="flex-grow">
                         <h2 className="headline-text text-left">{title}</h2>
-                        <p className="standard-text text-left">{description}</p>
+                        <p className="standard-text text-left my-2">{description}</p>
                     </div>
                     <div className="flex items-center justify-end opacity-50 hover:opacity-100">
                         <a href={link} className="standard-text cursor-pointer mr-1">{ t.more }</a>

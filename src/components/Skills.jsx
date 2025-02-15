@@ -14,7 +14,7 @@ export default function Skills() {
                 <h1 className="title-text">{ t.skills }</h1>
                 <p className="standard-text">{ t.skills_desc }</p>
             </div>
-            <div className="xl:flex xl:w-full xl:justify-between gap-6 grid grid-cols-5">
+            <div className="flex w-full flex-wrap justify-center gap-10">
                 <TechIcon icon={SiReact} name="React" />
                 <TechIcon icon={SiVuedotjs} name="Vue" />
                 <TechIcon icon={SiJavascript} name="Javascript" />

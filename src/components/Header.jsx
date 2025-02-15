@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <div className="flex w-full h-fit justify-between items-center my-4">
-            <div id="navigation" className="flex gap-4 sm:gap-8 lg:gap-12">
+            <div id="navigation" className="flex gap-3 sm:gap-8 lg:gap-12">
                 <div id="button" className="btn-nav-checked">{ t.home }</div>
                 <div id="button" className="btn-nav">{ t.projects }</div>
                 <div id="button" className="btn-nav">{ t.skills }</div>
