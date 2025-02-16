@@ -1,0 +1,43 @@
+import { LanguageContext } from "../context/LanguageContext"
+import { useContext } from "react"
+import LinkButton from "./ui/LinkButton";
+
+import { IoDocumentAttachSharp } from "react-icons/io5";
+import { SiLinkedin, SiGit } from "react-icons/si";
+
+
+export default function Links() {
+    const { lang, t } = useContext(LanguageContext)
+
+    const setCV = () => {
+        if(lang === 'pl') {
+            return '/assets/cv_pl.pdf'
+        } else {
+            return '/assets/cv_en.pdf'
+        }
+    }
+
+    return (
+        <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-8">
+            <h1 className="title-text">{ t.links }</h1>
+            <div className="flex flex-col w-full items-center gap-6">
+                <LinkButton
+                    icon={SiLinkedin}
+                    description={ t.linkedin }
+                    link="https://www.linkedin.com/in/adrian-zakrzewski-7b2a13269/"
+                />
+                <LinkButton
+                    icon={SiGit}
+                    description={ t.github }
+                    link="https://github.com/Adrian4401"
+                />
+                <LinkButton
+                    icon={IoDocumentAttachSharp}
+                    description={ t.cv }
+                    link={setCV()}
+                    download
+                />
+            </div>
+        </div>
+    )   
+}

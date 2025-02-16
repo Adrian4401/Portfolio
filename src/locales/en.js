@@ -20,5 +20,12 @@ export default {
 
     // skills section
     skills: 'Skills',
-    skills_desc: 'I`m a Junior Frontend Developer with a strong passion for modern web technologies. While my primary focus is frontend development, I have also worked with databases and even developed a backend for one of my projects. I stay up to date with the latest industry trends and technologies, ensuring that the tools I use are modern, efficient, and long-term supported. My goal is to build scalable, well-structured applications while continuously expanding my skills in both frontend and backend development.'
+    skills_desc: 'I`m a Junior Frontend Developer with a strong passion for modern web technologies. While my primary focus is frontend development, I have also worked with databases and even developed a backend for one of my projects. I stay up to date with the latest industry trends and technologies, ensuring that the tools I use are modern, efficient, and long-term supported. My goal is to build scalable, well-structured applications while continuously expanding my skills in both frontend and backend development.',
+    skills_desc_short: 'Technologies in which I work',
+
+    // links section
+    links: 'Links',
+    linkedin: 'Text me on Linkedin',
+    github: 'Visit my GitHub profile',
+    cv: 'Download my CV'
 };

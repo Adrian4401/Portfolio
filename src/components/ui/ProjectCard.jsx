@@ -8,8 +8,9 @@ export default function ProjectCard({ image, title, description, link }) {
     const { t } = useContext(LanguageContext)
 
     return (
-        <div className="flex flex-col w-full md:h-56 items-center bg-accent dark:bg-dark-accent rounded-md">
-            <div className="flex w-full h-full">
+        <>
+            {/* destop */}
+            <div className="hidden md:flex w-full md:h-56 items-center bg-accent dark:bg-dark-accent rounded-md">
                 <div id="photo" className="hidden md:flex h-full w-1/3">
                     <img src={image} alt={title} className="w-full h-full object-cover rounded-l-md" />
                 </div>
@@ -25,6 +26,16 @@ export default function ProjectCard({ image, title, description, link }) {
                     </div>
                 </div>
             </div>
-        </div>
+            {/* mobile */}
+            <div className="md:hidden flex w-80 md:h-56 items-center bg-accent dark:bg-dark-accent rounded-md p-2 justify-between">
+                <h2 className="headline-text">{title}</h2>
+                <div className="flex items-center justify-end opacity-50 hover:opacity-100">
+                    <a href={link} className="standard-text cursor-pointer mr-1">{ t.more }</a>
+                    <FontAwesomeIcon icon={faChevronRight} className='text-secondary dark:text-dark-secondary cursor-pointer' />
+                    <FontAwesomeIcon icon={faChevronRight} className='text-secondary dark:text-dark-secondary cursor-pointer' />
+                </div>
+            </div>
+        </>
+        
     )
 }

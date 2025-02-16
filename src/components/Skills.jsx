@@ -12,7 +12,8 @@ export default function Skills() {
         <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-8">
             <div className="flex flex-col w-full h-fit items-center gap-4">
                 <h1 className="title-text">{ t.skills }</h1>
-                <p className="standard-text">{ t.skills_desc }</p>
+                <p className="hidden md:block standard-text">{ t.skills_desc }</p>
+                <p className="block md:hidden standard-text">{ t.skills_desc_short }</p>
             </div>
             <div className="flex w-full flex-wrap justify-center gap-10">
                 <TechIcon icon={SiReact} name="React" />

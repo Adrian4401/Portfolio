@@ -20,5 +20,12 @@ export default {
 
     // skills section
     skills: 'Umiejętności',
-    skills_desc: 'Jestem Junior Frontend Developerem z dużą pasją do nowoczesnych technologii webowych. Chociaż moim głównym obszarem zainteresowań jest frontend, pracowałem również z bazami danych i stworzyłem backend do jednego z moich projektów. Na bieżąco śledzę najnowsze trendy i technologie w branży, dbając o to, aby narzędzia, których używam, były nowoczesne, wydajne i długoterminowo wspierane. Moim celem jest tworzenie skalowalnych, dobrze zorganizowanych aplikacji, jednocześnie nieustannie rozwijając swoje umiejętności zarówno w frontendzie, jak i backendzie.'
+    skills_desc: 'Jestem Junior Frontend Developerem z dużą pasją do nowoczesnych technologii webowych. Chociaż moim głównym obszarem zainteresowań jest frontend, pracowałem również z bazami danych i stworzyłem backend do jednego z moich projektów. Na bieżąco śledzę najnowsze trendy i technologie w branży, dbając o to, aby narzędzia, których używam, były nowoczesne, wydajne i długoterminowo wspierane. Moim celem jest tworzenie skalowalnych, dobrze zorganizowanych aplikacji, jednocześnie nieustannie rozwijając swoje umiejętności zarówno w frontendzie, jak i backendzie.',
+    skills_desc_short: 'Technologie, w których pracuję',
+
+    // links section
+    links: 'Linki',
+    linkedin: 'Napisz do mnie na LinkedIn',
+    github: 'Odwiedź mój profil na GitHub',
+    cv: 'Pobierz moje CV'
 };

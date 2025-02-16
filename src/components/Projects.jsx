@@ -14,7 +14,7 @@ export default function Projects() {
     const { t } = useContext(LanguageContext)
 
     return (
-        <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-8">
+        <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-6 md:gap-8">
             <div className="flex flex-col w-full h-fit items-center gap-4">
                 <h1 className="title-text">{ t.projects }</h1>
                 <p className="standard-text">{ t.projects_desc }</p>
@@ -48,9 +48,9 @@ export default function Projects() {
             </svg>
             <div className="flex items-center cursor-pointer">
                 <a href="https://github.com/Adrian4401?tab=repositories" className="flex items-center cursor-pointer">
-                    <h1 className="title-text mr-2">{ t.all_projects }</h1>
-                    <FaChevronRight className="icons-gradient text-3xl md:text-5xl" />
-                    <FaChevronRight className="icons-gradient text-3xl md:text-5xl" />
+                    <h1 className="bg-gradient bg-clip-text text-transparent text-2xl md:text-4xl font-bold md:leading-[1.2] mr-2">{ t.all_projects }</h1>
+                    <FaChevronRight className="icons-gradient text-xl md:text-3xl" />
+                    <FaChevronRight className="icons-gradient text-xl md:text-3xl" />
                 </a>
             </div>
         </div>
