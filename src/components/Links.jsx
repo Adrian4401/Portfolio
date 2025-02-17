@@ -4,10 +4,12 @@ import LinkButton from "./ui/LinkButton";
 
 import { IoDocumentAttachSharp } from "react-icons/io5";
 import { SiLinkedin, SiGit } from "react-icons/si";
+import { Element } from "react-scroll";
 
 
 export default function Links() {
     const { lang, t } = useContext(LanguageContext)
+    const year = new Date().getFullYear()
 
     const setCV = () => {
         if(lang === 'pl') {
@@ -18,7 +20,7 @@ export default function Links() {
     }
 
     return (
-        <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-8">
+        <Element name="links" className="flex flex-col w-full h-fit justify-between items-center pt-40 md:pt-56 gap-8">
             <h1 className="title-text">{ t.links }</h1>
             <div className="flex flex-col w-full items-center gap-6">
                 <LinkButton
@@ -38,6 +40,8 @@ export default function Links() {
                     download
                 />
             </div>
-        </div>
+            <p className="text-secondary dark:text-dark-secondary text-xl md:text-3xl font-normal mt-20">{ t.thank_for_visiting }</p>
+            <p className="text-secondary dark:text-dark-secondary text-sm mt-80 md:mt-52">&#169; Adrian Zakrzewski {year}</p>
+        </Element>
     )   
 }

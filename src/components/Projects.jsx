@@ -7,6 +7,7 @@ import { FaChevronRight } from "react-icons/fa";
 import StudyNoteWebsite from '../assets/studynote_website.png'
 import Alledrogo from '../assets/alledrogo.png'
 import StudyNote from '../assets/studynote.png'
+import { Element } from "react-scroll";
 
 
 
@@ -14,7 +15,7 @@ export default function Projects() {
     const { t } = useContext(LanguageContext)
 
     return (
-        <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-6 md:gap-8">
+        <Element name="projects" className="flex flex-col w-full h-fit justify-between items-center pt-40 md:pt-56 gap-6 md:gap-8">
             <div className="flex flex-col w-full h-fit items-center gap-4">
                 <h1 className="title-text">{ t.projects }</h1>
                 <p className="standard-text">{ t.projects_desc }</p>
@@ -47,12 +48,12 @@ export default function Projects() {
                 </defs>
             </svg>
             <div className="flex items-center cursor-pointer">
-                <a href="https://github.com/Adrian4401?tab=repositories" className="flex items-center cursor-pointer">
+                <a href="https://github.com/Adrian4401?tab=repositories" className="flex items-center cursor-pointer smooth-hover custom-scale">
                     <h1 className="bg-gradient bg-clip-text text-transparent text-2xl md:text-4xl font-bold md:leading-[1.2] mr-2">{ t.all_projects }</h1>
                     <FaChevronRight className="icons-gradient text-xl md:text-3xl" />
                     <FaChevronRight className="icons-gradient text-xl md:text-3xl" />
                 </a>
             </div>
-        </div>
+        </Element>
     )   
 }

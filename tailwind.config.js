@@ -7,14 +7,14 @@ module.exports = {
     extend: {
       colors: {
         // light theme
-        'background': '#f5f5f5',
-        'accent': '#e8e5e9',
+        'background': '#D4D2D2',
+        'accent': '#BDBDD3',
         'primary': '#1e1e1e',
         'secondary': '#6a6a6a',
         // dark theme
         'dark-background': '#252525',
         'dark-accent': '#1E1D1E',
-        'dark-primary': '#ffffff',
+        'dark-primary': '#F7F3F3',
         'dark-secondary': '#848584',
       },
       backgroundImage: {

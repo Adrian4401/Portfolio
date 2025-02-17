@@ -14,9 +14,9 @@ export default {
     projects_desc: 'Poniżej znajdziesz niektóre z moich projektów',
     more: 'Więcej',
     all_projects: 'Wszystkie projekty',
-    alledrogo_desc: 'Stworzyłem internetową platformę handlową, która łączy kupujących i sprzedających, zapewniając płynne doświadczenie w zakresie wystawiania, przeglądania i kupowania produktów lub usług. Projekt koncentruje się na przyjaznym dla użytkownika interfejsie, płynnej nawigacji i bezpiecznych transakcjach, gwarantując niezawodne działanie dla wszystkich użytkowników.',
-    studynote_desc: 'Aplikacja mobilna zaprojektowana w celu efektywnej organizacji nauki przez studentów. Łączy notatki z wykładów z ważnymi wydarzeniami, takimi jak egzaminy i zadania, ułatwiając kontrolę nad terminami. Użytkownicy mogą tworzyć i zarządzać notatkami dla każdego przedmiotu oraz przypisywać je do konkretnych wydarzeń, co zapewnia szybki dostęp do istotnych materiałów podczas przygotowań do egzaminów.',
-    studynote_website_desc: 'Strona internetowa StudyNote dostarcza wszystkich niezbędnych informacji o aplikacji mobilnej StudyNote, stworzonej w celu wspierania studentów w organizacji nauki. Odwiedzający mogą zapoznać się z funkcjami aplikacji, dowiedzieć się, jak upraszcza naukę poprzez łączenie notatek z wydarzeniami akademickimi, oraz pobrać aplikację, aby rozpocząć jej użytkowanie. Strona pełni rolę centralnego miejsca dla studentów, którzy szukają inteligentnego sposobu na zarządzanie materiałami do nauki i harmonogramem egzaminów.',
+    alledrogo_desc: 'Internetowa platforma handlowa, która łączy kupujących i sprzedających, zapewniając płynne doświadczenie w zakresie wystawiania, przeglądania i kupowania produktów lub usług.',
+    studynote_desc: 'Aplikacja mobilna zaprojektowana w celu efektywnej organizacji nauki dla studentów. Łączy notatki z wykładów z ważnymi wydarzeniami, takimi jak egzaminy i zadania, ułatwiając kontrolę nad terminami.',
+    studynote_website_desc: 'Strona internetowa StudyNote dostarcza wszystkich niezbędnych informacji o aplikacji mobilnej StudyNote, stworzonej w celu wspierania studentów w organizacji nauki.',
 
     // skills section
     skills: 'Umiejętności',
@@ -27,5 +27,7 @@ export default {
     links: 'Linki',
     linkedin: 'Napisz do mnie na LinkedIn',
     github: 'Odwiedź mój profil na GitHub',
-    cv: 'Pobierz moje CV'
+    cv: 'Pobierz moje CV',
+
+    thank_for_visiting: 'Dziękuję za odwiedzenie mojej strony! Doceniam Twój czas i zainteresowanie. Jeśli masz pytania lub chcesz się skontaktować, śmiało pisz!'
 };

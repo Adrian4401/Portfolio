@@ -3,13 +3,14 @@ import { useContext } from "react"
 import TechIcon from '../components/ui/TechIcon'
 
 import { SiReact, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiGit, SiDocker, SiTypescript, SiVuedotjs } from "react-icons/si";
+import { Element } from "react-scroll";
 
 
 export default function Skills() {
     const { t } = useContext(LanguageContext)
 
     return (
-        <div className="flex flex-col w-full h-fit justify-between items-center mt-32 gap-8">
+        <Element name="skills" className="flex flex-col w-full h-fit justify-between items-center pt-40 md:pt-56 gap-8">
             <div className="flex flex-col w-full h-fit items-center gap-4">
                 <h1 className="title-text">{ t.skills }</h1>
                 <p className="hidden md:block standard-text">{ t.skills_desc }</p>
@@ -27,6 +28,6 @@ export default function Skills() {
                 <TechIcon icon={SiGit} name="GitHub" />
                 <TechIcon icon={SiDocker} name="Docker" />
             </div>
-        </div>
+        </Element>
     )   
 }

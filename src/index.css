@@ -9,6 +9,7 @@ body {
   font-family: "Roboto", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 code {
@@ -17,11 +18,11 @@ code {
 }
 
 .btn-nav {
-  @apply text-secondary dark:text-dark-secondary text-base md:text-lg font-medium cursor-pointer hover:text-primary hover:dark:text-dark-primary;
+  @apply text-secondary dark:text-dark-secondary text-base md:text-lg font-medium cursor-pointer hover:text-primary hover:dark:text-dark-primary smooth-hover;
 }
 
 .btn-nav-checked {
-  @apply bg-gradient bg-clip-text text-transparent text-base md:text-lg font-medium cursor-pointer;
+  @apply bg-gradient bg-clip-text text-transparent text-base md:text-lg font-medium cursor-pointer !important;
 }
 
 .switches-bg {
@@ -46,4 +47,12 @@ code {
 
 .icons-gradient {
   fill: url(#chevronGradient);
+}
+
+.smooth-hover {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.custom-scale {
+  @apply hover:scale-[1.05]
 }

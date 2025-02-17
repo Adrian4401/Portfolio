@@ -14,9 +14,10 @@ export default {
     projects_desc: 'Below you’ll find some of my projects',
     more: 'More',
     all_projects: 'All projects',
-    alledrogo_desc: 'I developed a marketplace web application that connects buyers and sellers, providing a seamless platform for listing, browsing, and purchasing products or services. The project focuses on user-friendly design, smooth navigation, and secure transactions, ensuring a reliable experience for all users.',
-    studynote_desc: 'Mobile application designed to help students organize their studies efficiently. It combines lecture notes with important events like exams and assignments, making it easier to stay on top of deadlines.Users can create and manage notes for each subject and link them to specific events, ensuring quick access to relevant materials when preparing for exams.',
-    studynote_website_desc: 'The StudyNote website provides all the essential information about the StudyNote mobile app, designed to help students organize their studies. Visitors can explore the app’s features, learn how it simplifies studying by combining lecture notes with academic events, and download the app to start using it. The website serves as a central hub for students looking for a smarter way to manage their study materials and exam schedules.',
+    alledrogo_desc: 'An online marketplace that connects buyers and sellers, providing a seamless experience for listing, browsing, and purchasing products or services.',
+    studynote_desc: 'A mobile application designed for efficient study organization for students. It integrates lecture notes with important events such as exams and assignments, making it easier to keep track of deadlines.',
+    studynote_website_desc: 'The StudyNote website provides all the essential information about the StudyNote mobile application, designed to support students in organizing their studies.',
+
 
     // skills section
     skills: 'Skills',
@@ -27,5 +28,7 @@ export default {
     links: 'Links',
     linkedin: 'Text me on Linkedin',
     github: 'Visit my GitHub profile',
-    cv: 'Download my CV'
+    cv: 'Download my CV',
+
+    thank_for_visiting: 'Thank you for visiting my website! I appreciate your time and interest. Feel free to reach out if you have any questions or just want to connect!'
 };
