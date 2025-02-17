@@ -1,6 +1,7 @@
+// eslint-disable-next-line
 export default {
     // navigation
-    home: 'Start',
+    home: 'O mnie',
     projects: 'Projekty',
     skills: 'Umiejętności',
     links: 'Linki',
@@ -10,7 +11,6 @@ export default {
     about_me: "Jestem młodym, energicznym i ambitnym Junior Frontend Developerem, kończącym obecnie studia informatyczne. Pasjonuję się tworzeniem stron internetowych i chętnie rozpocznę swoją pierwszą profesjonalną pracę w branży.<br></br>Podczas mojej edukacyjnej drogi zdobyłem praktyczne doświadczenie na stażu, gdzie pracowałem w zespole i brałem udział w realizacji rzeczywistych projektów. Pozwoliło mi to rozwijać umiejętności programistyczne oraz lepiej zrozumieć procesy w branży.<br></br>Jestem mocno zmotywowany do rozwoju jako programista, ciągłego poznawania nowych technologii oraz udziału w ekscytujących projektach. Jeśli szukasz zaangażowanego i pełnego entuzjazmu junior developera, skontaktujmy się!", 
 
     // projects section
-    projects: 'Projekty',
     projects_desc: 'Poniżej znajdziesz niektóre z moich projektów',
     more: 'Więcej',
     all_projects: 'Wszystkie projekty',
@@ -19,12 +19,10 @@ export default {
     studynote_website_desc: 'Strona internetowa StudyNote dostarcza wszystkich niezbędnych informacji o aplikacji mobilnej StudyNote, stworzonej w celu wspierania studentów w organizacji nauki.',
 
     // skills section
-    skills: 'Umiejętności',
     skills_desc: 'Jestem Junior Frontend Developerem z dużą pasją do nowoczesnych technologii webowych. Chociaż moim głównym obszarem zainteresowań jest frontend, pracowałem również z bazami danych i stworzyłem backend do jednego z moich projektów. Na bieżąco śledzę najnowsze trendy i technologie w branży, dbając o to, aby narzędzia, których używam, były nowoczesne, wydajne i długoterminowo wspierane. Moim celem jest tworzenie skalowalnych, dobrze zorganizowanych aplikacji, jednocześnie nieustannie rozwijając swoje umiejętności zarówno w frontendzie, jak i backendzie.',
     skills_desc_short: 'Technologie, w których pracuję',
 
     // links section
-    links: 'Linki',
     linkedin: 'Napisz do mnie na LinkedIn',
     github: 'Odwiedź mój profil na GitHub',
     cv: 'Pobierz moje CV',
