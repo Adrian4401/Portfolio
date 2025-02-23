@@ -19,10 +19,21 @@ module.exports = {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(to right, #09c7fb, #11bdff, #41b0ff, #6ca2ff, #9390ff, #b381f3, #ce70e2, #e55dcb, #f450af, #fb4991, #fc4975, #f64f59)'
+      },
+      keyframes: {
+        appear: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 }
+        }
+      },
+      animation: {
+        appear: "appear 1s ease-in-out"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
   darkMode: 'class'
 }
 

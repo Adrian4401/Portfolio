@@ -2,38 +2,49 @@ import { LanguageContext } from "../context/LanguageContext"
 import { useContext } from "react"
 import ProjectCard from "./ui/ProjectCard"
 
-import { FaChevronRight } from "react-icons/fa";
+import { FaChevronRight, FaStore, FaMobile, FaDesktop } from "react-icons/fa";
 
 import StudyNoteWebsite from '../assets/studynote_website.png'
 import Alledrogo from '../assets/alledrogo.png'
 import StudyNote from '../assets/studynote.png'
 import { Element } from "react-scroll";
 
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 
 
 export default function Projects() {
     const { t } = useContext(LanguageContext)
 
+    useEffect(() => {
+        Aos.init({ duration: 1200 })
+    })
+
     return (
-        <Element name="projects" className="flex flex-col w-full h-fit justify-between items-center pt-40 md:pt-56 gap-6 md:gap-8">
+        <Element name="projects" data-aos="fade-up" data-aos-offset="300" className="flex flex-col w-full h-fit justify-between items-center pt-40 md:pt-56 gap-6 md:gap-8">
             <div className="flex flex-col w-full h-fit items-center gap-4">
                 <h1 className="title-text">{ t.projects }</h1>
                 <p className="standard-text">{ t.projects_desc }</p>
             </div>
             <ProjectCard
                 image={Alledrogo}
+                icon={FaStore}
                 title="Alledrogo"
                 description={ t.alledrogo_desc }
                 link="https://github.com/Adrian4401/AngularMarketplace"
             />
             <ProjectCard
                 image={StudyNote}
+                icon={FaMobile}
                 title="StudyNote"
                 description={ t.studynote_desc }
                 link="https://github.com/Adrian4401/StudyNote"
             />
             <ProjectCard
                 image={StudyNoteWebsite}
+                icon={FaDesktop}
                 title="StudyNote Website"
                 description={ t.studynote_website_desc }
                 link="https://studynote-az.netlify.app"

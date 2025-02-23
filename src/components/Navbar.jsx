@@ -23,7 +23,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <div className="fixed top-0 w-full h-fit flex justify-center py-4 bg-background/50 dark:bg-dark-background/50 backdrop-blur-xl shadow-md z-1000">
+        <div className="fixed top-0 w-full h-fit flex justify-center py-4 bg-background/50 dark:bg-dark-background/50 backdrop-blur-xl shadow-md z-[1000]">
             <div className="flex max-w-[1200px] w-full justify-between items-center px-2 xl:px-0">
                 <div id="navigation" className="flex gap-3 sm:gap-8 lg:gap-12">
                     <NavbarButton element="about_me" text={ t.home } />
