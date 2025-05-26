@@ -7,7 +7,7 @@ import Links from "../components/Links";
 
 export default function Home() {
     return (
-        <div className="flex justify-center min-h-screen w-full text-center bg-background dark:bg-dark-background">
+        <div className="flex justify-center min-h-screen w-full text-center bg-background dark:bg-dark-background transition-colors duration-500">
             <Navbar />
             <div className="w-[1200px] flex flex-col px-4 xl:px-0">
                 <AboutMe />

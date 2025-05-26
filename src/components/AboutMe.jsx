@@ -8,7 +8,7 @@ export default function AboutMe() {
     const { t } = useContext(LanguageContext)
 
     return (
-        <Element name="about_me" className="flex flex-col-reverse lg:flex-row w-full h-fit justify-between items-center pt-40 md:pt-56 gap-20">
+        <Element name="about_me" className="flex flex-col-reverse lg:flex-row w-full h-fit justify-between items-center pt-40 md:pt-56 gap-20 animate-appear">
             <div className="flex flex-col lg:max-w-screen-sm gap-8">
                 <p className="text-secondary dark:text-dark-secondary text-base font-normal text-center lg:text-left">{ t.hey_my_name }</p>
                 <h1 className="title-text text-center lg:text-left">Adrian Zakrzewski</h1>
