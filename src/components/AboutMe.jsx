@@ -12,7 +12,7 @@ export default function AboutMe() {
             <div className="flex flex-col lg:max-w-screen-sm gap-8">
                 <p className="text-secondary dark:text-dark-secondary text-base font-normal text-center lg:text-left">{ t.hey_my_name }</p>
                 <h1 className="title-text text-center lg:text-left">Adrian Zakrzewski</h1>
-                <h2 className="headline-text text-center lg:text-left">Junior Frontend Developer</h2>
+                <h2 className="headline-text text-center lg:text-left">Junior Fullstack Developer</h2>
                 <p className="description-text" dangerouslySetInnerHTML={{ __html: t.about_me }} />
             </div>
             <div 

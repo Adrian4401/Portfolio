@@ -8,7 +8,7 @@ export default {
 
     // about me section
     hey_my_name: 'Cześć, nazywam się',
-    about_me: "Jestem młodym, energicznym i ambitnym Junior Frontend Developerem, kończącym obecnie studia informatyczne. Pasjonuję się tworzeniem stron internetowych i chętnie rozpocznę swoją pierwszą profesjonalną pracę w branży.<br></br>Podczas mojej edukacyjnej drogi zdobyłem praktyczne doświadczenie na stażu, gdzie pracowałem w zespole i brałem udział w realizacji rzeczywistych projektów. Pozwoliło mi to rozwijać umiejętności programistyczne oraz lepiej zrozumieć procesy w branży.<br></br>Jestem mocno zmotywowany do rozwoju jako programista, ciągłego poznawania nowych technologii oraz udziału w ekscytujących projektach. Jeśli szukasz zaangażowanego i pełnego entuzjazmu junior developera, skontaktujmy się!", 
+    about_me: "Jestem młodym, energicznym i ambitnym Junior Fullstack Developerem z tytułem inżyniera informatyki. Pasjonuję się tworzeniem stron i aplikacji internetowych, a moim celem jest rozwój w środowisku, które ceni jakość kodu, współpracę i inicjatywę.<br></br>Podczas studiów zdobyłem praktyczne doświadczenie zawodowe — najpierw na stażu, a później jako członek zespołu, w którym rozwijałem rzeczywiste projekty, m.in. system CMS oparty na Vue 3. Praca ta pozwoliła mi rozwinąć umiejętności programistyczne, poznać dobre praktyki i zrozumieć realia pracy w branży IT.<br></br>Jestem mocno zmotywowany do dalszego rozwoju jako programista — chętnie poznaję nowe technologie, doskonalę warsztat i angażuję się w ciekawe projekty. Jeśli szukasz zaangażowanego, sumiennego i komunikatywnego junior developera — porozmawiajmy!", 
 
     // projects section
     projects_desc: 'Poniżej znajdziesz niektóre z moich projektów',
@@ -19,7 +19,7 @@ export default {
     studynote_website_desc: 'Strona internetowa StudyNote dostarcza wszystkich niezbędnych informacji o aplikacji mobilnej StudyNote, stworzonej w celu wspierania studentów w organizacji nauki.',
 
     // skills section
-    skills_desc: 'Jestem Junior Frontend Developerem z dużą pasją do nowoczesnych technologii webowych. Chociaż moim głównym obszarem zainteresowań jest frontend, pracowałem również z bazami danych i stworzyłem backend do jednego z moich projektów. Na bieżąco śledzę najnowsze trendy i technologie w branży, dbając o to, aby narzędzia, których używam, były nowoczesne, wydajne i długoterminowo wspierane. Moim celem jest tworzenie skalowalnych, dobrze zorganizowanych aplikacji, jednocześnie nieustannie rozwijając swoje umiejętności zarówno w frontendzie, jak i backendzie.',
+    skills_desc: 'Jestem Junior Fullstack Developerem z dużą pasją do nowoczesnych technologii webowych. Choć specjalizuję się głównie we frontendzie, mam również doświadczenie w pracy z bazami danych oraz tworzeniu backendu w jednym z moich projektów. Na bieżąco śledzę trendy i rozwój technologii, zwracając uwagę na to, by narzędzia, z których korzystam, były nowoczesne, wydajne i długoterminowo wspierane. Moim celem jest tworzenie skalowalnych, przejrzystych i dobrze zorganizowanych aplikacji, a także stałe poszerzanie wiedzy zarówno w zakresie frontendowych, jak i backendowych aspektów programowania.',
     skills_desc_short: 'Technologie, w których pracuję',
 
     // links section

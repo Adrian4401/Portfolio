@@ -2,7 +2,7 @@ import { LanguageContext } from "../context/LanguageContext"
 import { useContext } from "react"
 import TechIcon from '../components/ui/TechIcon'
 
-import { SiReact, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiBootstrap, SiGit, SiDocker, SiTypescript, SiVuedotjs, SiPhp } from "react-icons/si";
+import { SiReact, SiAngular, SiJavascript, SiC, SiDotnet, SiTailwindcss, SiBootstrap, SiGit, SiDocker, SiTypescript, SiVuedotjs, SiPhp } from "react-icons/si";
 import { Element } from "react-scroll";
 
 import Aos from "aos";
@@ -28,11 +28,12 @@ export default function Skills() {
             <div className="flex w-full flex-wrap justify-center gap-10">
                 <TechIcon icon={SiReact} name="React" />
                 <TechIcon icon={SiVuedotjs} name="Vue" />
+                <TechIcon icon={SiAngular} name="Angular" />
                 <TechIcon icon={SiJavascript} name="Javascript" />
                 <TechIcon icon={SiTypescript} name="Typescript" />
-                <TechIcon icon={SiHtml5} name="HTML" />
+                <TechIcon icon={SiC} name="C#" />
+                <TechIcon icon={SiDotnet} name=".NET" />
                 <TechIcon icon={SiPhp} name="PHP" />
-                <TechIcon icon={SiCss3} name="CSS" />
                 <TechIcon icon={SiTailwindcss} name="TailwindCSS" />
                 <TechIcon icon={SiBootstrap} name="Bootstrap" />
                 <TechIcon icon={SiGit} name="GitHub" />
