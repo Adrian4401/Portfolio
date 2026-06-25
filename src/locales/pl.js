@@ -16,7 +16,7 @@ export default {
     all_projects: 'Wszystkie projekty',
     alledrogo_desc: 'Internetowa platforma handlowa, która łączy kupujących i sprzedających, zapewniając płynne doświadczenie w zakresie wystawiania, przeglądania i kupowania produktów lub usług.',
     studynote_desc: 'Aplikacja mobilna zaprojektowana w celu efektywnej organizacji nauki dla studentów. Łączy notatki z wykładów z ważnymi wydarzeniami, takimi jak egzaminy i zadania, ułatwiając kontrolę nad terminami.',
-    studynote_website_desc: 'Strona internetowa StudyNote dostarcza wszystkich niezbędnych informacji o aplikacji mobilnej StudyNote, stworzonej w celu wspierania studentów w organizacji nauki.',
+    carplates: 'Sklep internetowy Carplates odpowiada za sprzedaż kolekcjonarskich tablic rejestracyjnych. Moim celem było swtorzenie od podstaw jego nowej odsłony dopasowanej do dzisiejszych standardów.',
 
     // skills section
     skills_desc: 'Jestem Junior Fullstack Developerem z dużą pasją do nowoczesnych technologii webowych. Choć specjalizuję się głównie we frontendzie, mam również doświadczenie w pracy z bazami danych oraz tworzeniu backendu w jednym z moich projektów. Na bieżąco śledzę trendy i rozwój technologii, zwracając uwagę na to, by narzędzia, z których korzystam, były nowoczesne, wydajne i długoterminowo wspierane. Moim celem jest tworzenie skalowalnych, przejrzystych i dobrze zorganizowanych aplikacji, a także stałe poszerzanie wiedzy zarówno w zakresie frontendowych, jak i backendowych aspektów programowania.',

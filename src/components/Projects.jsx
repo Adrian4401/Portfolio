@@ -4,9 +4,9 @@ import ProjectCard from "./ui/ProjectCard"
 
 import { FaChevronRight, FaStore, FaMobile, FaDesktop } from "react-icons/fa";
 
-import StudyNoteWebsite from '../assets/studynote_website.png'
 import Alledrogo from '../assets/alledrogo.png'
 import StudyNote from '../assets/studynote.png'
+import Carplates from '../assets/carplates.png'
 import { Element } from "react-scroll";
 
 import Aos from "aos";
@@ -29,6 +29,13 @@ export default function Projects() {
                 <p className="standard-text">{ t.projects_desc }</p>
             </div>
             <ProjectCard
+                image={Carplates}
+                icon={FaDesktop}
+                title="Carplates"
+                description={ t.carplates }
+                link="https://carplates.pl/"
+            />
+            <ProjectCard
                 image={Alledrogo}
                 icon={FaStore}
                 title="Alledrogo"
@@ -41,13 +48,6 @@ export default function Projects() {
                 title="StudyNote"
                 description={ t.studynote_desc }
                 link="https://github.com/Adrian4401/StudyNote"
-            />
-            <ProjectCard
-                image={StudyNoteWebsite}
-                icon={FaDesktop}
-                title="StudyNote Website"
-                description={ t.studynote_website_desc }
-                link="https://studynote-az.netlify.app"
             />
             <svg width="0" height="0" className="absolute invisible">
                 <defs>

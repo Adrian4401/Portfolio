@@ -16,7 +16,7 @@ export default {
     all_projects: 'All projects',
     alledrogo_desc: 'An online marketplace that connects buyers and sellers, providing a seamless experience for listing, browsing, and purchasing products or services.',
     studynote_desc: 'A mobile application designed for efficient study organization for students. It integrates lecture notes with important events such as exams and assignments, making it easier to keep track of deadlines.',
-    studynote_website_desc: 'The StudyNote website provides all the essential information about the StudyNote mobile application, designed to support students in organizing their studies.',
+    carplates: 'The Carplates online store sells collectible license plates. My goal was to build a new version of the site from scratch, tailored to modern standards.',
 
 
     // skills section

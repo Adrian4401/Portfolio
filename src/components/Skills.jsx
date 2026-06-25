@@ -2,7 +2,7 @@ import { LanguageContext } from "../context/LanguageContext"
 import { useContext } from "react"
 import TechIcon from '../components/ui/TechIcon'
 
-import { SiReact, SiAngular, SiJavascript, SiC, SiDotnet, SiTailwindcss, SiBootstrap, SiGit, SiDocker, SiTypescript, SiVuedotjs, SiPhp } from "react-icons/si";
+import { SiReact, SiJavascript, SiTailwindcss, SiBootstrap, SiGit, SiDocker, SiTypescript, SiPhp, SiWordpress, SiNodedotjs, SiWoocommerce } from "react-icons/si";
 import { Element } from "react-scroll";
 
 import Aos from "aos";
@@ -25,19 +25,26 @@ export default function Skills() {
                 <p className="hidden md:block standard-text">{ t.skills_desc }</p>
                 <p className="block md:hidden standard-text">{ t.skills_desc_short }</p>
             </div>
-            <div className="flex w-full flex-wrap justify-center gap-10">
-                <TechIcon icon={SiReact} name="React" />
-                <TechIcon icon={SiVuedotjs} name="Vue" />
-                <TechIcon icon={SiAngular} name="Angular" />
-                <TechIcon icon={SiJavascript} name="Javascript" />
-                <TechIcon icon={SiTypescript} name="Typescript" />
-                <TechIcon icon={SiC} name="C#" />
-                <TechIcon icon={SiDotnet} name=".NET" />
-                <TechIcon icon={SiPhp} name="PHP" />
-                <TechIcon icon={SiTailwindcss} name="TailwindCSS" />
-                <TechIcon icon={SiBootstrap} name="Bootstrap" />
-                <TechIcon icon={SiGit} name="GitHub" />
-                <TechIcon icon={SiDocker} name="Docker" />
+            <div className="flex w-full flex-wrap justify-center gap-16">
+                <div className="flex gap-6">
+                    <TechIcon icon={SiReact} name="React" />
+                    <TechIcon icon={SiJavascript} name="Javascript" />
+                    <TechIcon icon={SiTypescript} name="Typescript" />
+                    <TechIcon icon={SiNodedotjs} name="Node.js" />
+                </div>
+                <div className="flex gap-6">
+                    <TechIcon icon={SiWordpress} name="Wordpress" />
+                    <TechIcon icon={SiWoocommerce} name="Woocommerce" />
+                    <TechIcon icon={SiPhp} name="PHP" />
+                </div>
+                <div className="flex gap-6">
+                    <TechIcon icon={SiTailwindcss} name="TailwindCSS" />
+                    <TechIcon icon={SiBootstrap} name="Bootstrap" />
+                </div>
+                <div className="flex gap-6">
+                    <TechIcon icon={SiGit} name="GitHub" />
+                    <TechIcon icon={SiDocker} name="Docker" />
+                </div>
             </div>
         </Element>
     )   

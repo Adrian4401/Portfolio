@@ -49,7 +49,7 @@ export default function Links() {
                     download
                 />
             </div>
-            <p className="text-secondary dark:text-dark-secondary text-xl md:text-3xl font-normal mt-20">{ t.thank_for_visiting }</p>
+            {/* <p className="text-secondary dark:text-dark-secondary text-xl md:text-3xl font-normal mt-20">{ t.thank_for_visiting }</p> */}
             <p className="text-secondary dark:text-dark-secondary text-sm mt-80 md:mt-52">&#169; Adrian Zakrzewski {year}</p>
         </Element>
     )   
