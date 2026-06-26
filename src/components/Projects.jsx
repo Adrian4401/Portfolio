@@ -2,7 +2,7 @@ import { LanguageContext } from "../context/LanguageContext"
 import { useContext } from "react"
 import ProjectCard from "./ui/ProjectCard"
 
-import { FaChevronRight, FaStore, FaMobile, FaDesktop } from "react-icons/fa";
+import { FaStore, FaMobile, FaDesktop } from "react-icons/fa";
 
 import Alledrogo from '../assets/alledrogo.png'
 import StudyNote from '../assets/studynote.png'
