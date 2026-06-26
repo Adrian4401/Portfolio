@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faForward } from '@fortawesome/free-solid-svg-icons';
+import { faForward } from '@fortawesome/free-solid-svg-icons';
 
 import { LanguageContext } from '../../context/LanguageContext';
 import { useContext } from 'react';
